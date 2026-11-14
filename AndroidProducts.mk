@@ -4,4 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_onyx.mk
+    $(LOCAL_DIR)/infinity_onyx.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_onyx-user \
+    infinity_onyx-userdebug \
+    infinity_onyx-eng
